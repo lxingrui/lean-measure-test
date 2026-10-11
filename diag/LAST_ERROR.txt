@@ -1,0 +1,14 @@
+阶段: toolchain
+退出码: 1
+时间: 2026-10-11T06:15:10Z
+目标: mathlib oai
+主机: DESKTOP-4RJRLUN  vCPU=24  MEM=15G
+工作目录: /tmp/lcm-test/work
+
+===== toolchain 日志尾部 80 行 =====
+[2026-10-11T06:15:10Z] 安装基础包
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+[2026-10-11T06:15:10Z] 失败: apt-get update 失败

@@ -1,0 +1,6 @@
+[2026-10-11T06:15:10Z] 安装基础包
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+[2026-10-11T06:15:10Z] 失败: apt-get update 失败

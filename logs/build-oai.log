@@ -1,0 +1,6 @@
+[2026-10-11T08:06:24Z] [oai] 确保 pinned mathlib 缓存
+[stub lake] exe cache get
+[2026-10-11T08:06:24Z] [oai] 编译 OAI.Analysis.Crouzeix.Main（LEAN_NUM_THREADS=2）
+[stub lake build] build OAI.Analysis.Crouzeix.Main
+Build completed successfully (9038 jobs).
+[2026-10-11T08:06:24Z] [oai] 产物: 0

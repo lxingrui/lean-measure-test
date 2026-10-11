@@ -1,0 +1,4 @@
+[2026-10-11T08:06:19Z] [oai] commit: a1194e728645840111f97473465cba2aca82747f
+[2026-10-11T08:06:19Z] [oai] lake update（42 个依赖 + 自动打 24 个兼容补丁）
+[stub lake update] 假装拉了 42 个依赖
+[2026-10-11T08:06:19Z] [oai] 目标确认: OAI/Analysis/Crouzeix/ 目录存在（入口 OAI.Analysis.Crouzeix.Main）

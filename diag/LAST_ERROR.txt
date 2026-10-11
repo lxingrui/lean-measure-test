@@ -1,0 +1,16 @@
+阶段: deps-oai
+退出码: 1
+时间: 2026-10-11T08:05:42Z
+目标: oai
+主机: DESKTOP-4RJRLUN  vCPU=24  MEM=124G
+工作目录: /tmp/lcm-win/work
+
+===== deps-oai 日志尾部 80 行 =====
+[2026-10-11T08:05:41Z] [oai] commit: e8b0ad1691f1087da01e0a48039d78b5e88d5b7f
+[2026-10-11T08:05:41Z] [oai] lake update（42 个依赖 + 自动打 24 个兼容补丁）
+[stub lake update] 假装拉了 42 个依赖
+[2026-10-11T08:05:42Z] [oai] ❌ 找不到 OAI/Analysis/Crouzeix.lean，也没有 OAI/Analysis/Crouzeix/Main.lean
+[2026-10-11T08:05:42Z] [oai]    该子树的现有内容（前 20 项）:
+[2026-10-11T08:05:42Z] [oai]    Lean 里 import 的是模块不是目录，请指定到具体入口，例如
+[2026-10-11T08:05:42Z] [oai]      LCM_OAI_SUBTREE=OAI/Analysis/Crouzeix  LCM_OAI_ROOT_MODULE=OAI.Analysis.Crouzeix.Main
+[2026-10-11T08:05:42Z] 失败: [oai] 子树目标无效: OAI/Analysis/Crouzeix

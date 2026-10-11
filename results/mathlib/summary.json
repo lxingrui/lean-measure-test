@@ -1,0 +1,32 @@
+{
+ "declarations": 660,
+ "weightedEdges": 660,
+ "primitiveRefs": 60,
+ "scc": 660,
+ "depth": {
+  "median": 1,
+  "mean": 1.212,
+  "max": 2
+ },
+ "log2Unwrapped": {
+  "median": 2,
+  "mean": 1.946,
+  "max": 4.807
+ },
+ "fit": {
+  "slope_bits_per_level": 1.3448,
+  "intercept": 0.3156,
+  "residual_sigma": 0.9716,
+  "three_sigma": 2.9147,
+  "r": 0.633,
+  "n": 660
+ },
+ "outliers": {
+  "above_3sigma": 0,
+  "below_3sigma": 7
+ },
+ "paper_reference": {
+  "slope_reported": "~1 bit per level of depth",
+  "note": "本实现与论文口径一致：Expr 遍历、primitive=无定义体、depth=最长路"
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "targets": [
+  "mathlib"
+ ],
+ "subtree": "OAI/Analysis/Crouzeix",
+ "generated_at": "2026-10-11T07:40:41.461Z",
+ "work_dir": "C:/Users/Gionix/AppData/Local/Temp/lcm-win/work",
+ "cpu": {
+  "vcpu": 24,
+  "model": "AMD Ryzen 9 7845HX with Radeon Graphics        "
+ },
+ "memory_gb": 34,
+ "node": "v22.18.0",
+ "lean": null,
+ "commits": {
+  "mathlib": "73b361bc3f33248c8484960248567881dcddb312",
+  "oai": "d50b9c74e6d17aca67d4819c4092cf7eed219c09"
+ }
+}

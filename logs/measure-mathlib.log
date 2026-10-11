@@ -1,0 +1,73 @@
+[2026-10-11T07:40:30Z] [mathlib] 生成 MeasureRefs.lean（根模块 Mathlib）
+[subst] 路径替换 2 处，反引号模块名 0 处，import 1 处
+[subst] 结果首行: import Mathlib
+[subst] #eval 行:  #eval go "C:/Users/Gionix/AppData/Local/Temp/lcm-win/work/results/mathlib/refs.tsv" `Mathlib
+[2026-10-11T07:40:30Z] [mathlib] lake update（确保依赖齐全）
+[2026-10-11T07:40:30Z] [mathlib] 确认根模块可加载: Mathlib
+[2026-10-11T07:40:31Z] [mathlib] elaboration 抽取（单线程遍历，可能几十分钟）
+[stub lean] 抽取 /tmp/lcm-win/work/mathlib4/MeasureRefs.lean
+[stub lean] 写出 660 行到 C:/Users/Gionix/AppData/Local/Temp/lcm-win/work/results/mathlib/refs.tsv
+[2026-10-11T07:40:31Z] [mathlib] refs.tsv 行数: 660
+[2026-10-11T07:40:31Z] [mathlib] 后处理：depth / unwrapped / wrapped
+[0s] 读取 TSV…
+[0s] 读入 660 条带权边, 660 个声明, 堆 5 MB
+[0s] 建 CSR…
+[0s]   CSR 完成, 堆 5 MB
+[0s] Tarjan 求 SCC…
+[0s]   SCC 数 660, 堆 5 MB
+[0s] SCC 层拓扑序…
+[0s]   拓扑序 660/660 ✓ 全覆盖
+[0s] 落盘 measures.jsonl…
+[0s] 回归与汇总…
+
+================ 测量结果 ================
+{
+ "declarations": 660,
+ "weightedEdges": 660,
+ "primitiveRefs": 60,
+ "scc": 660,
+ "depth": {
+  "median": 1,
+  "mean": 1.212,
+  "max": 2
+ },
+ "log2Unwrapped": {
+  "median": 2,
+  "mean": 1.946,
+  "max": 4.807
+ },
+ "fit": {
+  "slope_bits_per_level": 1.3448,
+  "intercept": 0.3156,
+  "residual_sigma": 0.9716,
+  "three_sigma": 2.9147,
+  "r": 0.633,
+  "n": 660
+ },
+ "outliers": {
+  "above_3sigma": 0,
+  "below_3sigma": 7
+ },
+ "paper_reference": {
+  "slope_reported": "~1 bit per level of depth",
+  "note": "本实现与论文口径一致：Expr 遍历、primitive=无定义体、depth=最长路"
+ }
+}
+
+结果写入: C:/Users/Gionix/AppData/Local/Temp/lcm-win/work/results/mathlib/summary.json, C:/Users/Gionix/AppData/Local/Temp/lcm-win/work/results/mathlib/measures.jsonl
+用时 0s, 峰值堆 5 MB
+[2026-10-11T07:40:31Z] [mathlib] 生成可喂 AI 的报告
+[0s] 读取…
+[0s] 660 条声明
+[0s] 建立声明名 -> 文件 索引（供附源码用）…
+[0s]   索引到 0 / 50 条离群点源码位置
+[0s] 产出:
+[0s]   report.md                   4.0 KB   ≈1,380 token
+[0s]   depth_stats.csv             0.1 KB   ≈39 token
+[0s]   outliers.csv                0.2 KB   ≈82 token
+[0s]   module_clusters.csv         0.2 KB   ≈79 token
+[0s]   stats.json                  0.5 KB   ≈162 token
+[0s]   合计                        5.1 KB   ≈1,742 token
+[0s] （全量原始数据在 measures.jsonl 里，0.0 MB —— 那是给人复算的，别喂模型）
+[0s] 完成
+[2026-10-11T07:40:31Z] [mathlib] 完成：660 条声明

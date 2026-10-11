@@ -1,0 +1,8 @@
+module,outlier_count,up,down,mean_up_residual,mean_down_residual
+Mathlib.e20,1,0,1,,3.01
+Mathlib.e48,1,0,1,,3.01
+Mathlib.e76,1,0,1,,3.01
+Mathlib.e104,1,0,1,,3.01
+Mathlib.e132,1,0,1,,3.01
+Mathlib.e160,1,0,1,,3.01
+Mathlib.e188,1,0,1,,3.01
